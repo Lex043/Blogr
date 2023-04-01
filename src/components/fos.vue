@@ -1,10 +1,14 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <section class="font-overpass px-5">
-    <figure>
-      <img :src="laptop" alt="laptop illuestration" />
+  <section
+    class="font-overpass flex flex-col mt-10 items-center px-5 md:px-14 lg:px-[10rem] lg:flex-row lg:justify-between lg:mt-[5rem]"
+  >
+    <figure class="lg:-left-[20rem] lg:relative">
+      <img :src="laptop" alt="laptop illustration" class="lg:hidden" />
+      <img :src="laptopDesktop" alt="laptop illustration" class="hidden lg:block" />
     </figure>
-    <div class="text-center mt-5">
+
+    <div class="text-center mt-5 lg:text-start lg:w-[95%]">
       <header>
         <h1 class="text-2xl text-very-dark-blue font-bold">Free, open, simple</h1>
         <p class="pt-4 text-very-dark-grayish-blue">
@@ -28,4 +32,5 @@
 
 <script setup lang="ts">
 import laptop from '../assets/illustration-laptop-mobile.svg'
+import laptopDesktop from '../assets/illustration-laptop-desktop.svg'
 </script>

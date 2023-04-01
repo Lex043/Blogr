@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <section class="bg-mobile-pattern bg-center rounded-bl-[6rem] bg-light-red px-5">
+  <section class="bg-mobile-pattern bg-center rounded-bl-[6rem] bg-light-red px-5 md:px-14">
     <navbar />
     <div class="py-20">
       <header>
