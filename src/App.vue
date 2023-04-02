@@ -1,17 +1,17 @@
 <template>
   <main>
-    <hero />
-    <future />
-    <Infrastructure />
-    <fos />
-    <lastsection />
+    <TheHeader />
+    <FutureSection />
+    <InfraSection />
+    <FosSection />
+    <TheFooter />
   </main>
 </template>
 
 <script setup lang="ts">
-import hero from './components/hero.vue'
-import future from './components/future.vue'
-import Infrastructure from './components/Infrastructure.vue'
-import fos from './components/fos.vue'
-import lastsection from './components/lastsection.vue'
+import TheHeader from './components/TheHeader.vue'
+import FutureSection from './components/FutureSection.vue'
+import InfraSection from './components/InfraSection.vue'
+import FosSection from './components/FosSection.vue'
+import TheFooter from './components/TheFooter.vue'
 </script>

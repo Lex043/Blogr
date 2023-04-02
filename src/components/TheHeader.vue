@@ -3,7 +3,7 @@
   <section
     class="bg-mobile-pattern bg-center rounded-bl-[6rem] bg-light-red px-5 md:px-14 lg:px-[10rem]"
   >
-    <navbar />
+    <TheNavbar />
     <div class="py-20">
       <header>
         <h1 class="text-[2rem] pb-2 text-white font-overpass text-center">
@@ -30,5 +30,5 @@
 </template>
 
 <script setup lang="ts">
-import navbar from './navbar.vue'
+import TheNavbar from './TheNavbar.vue'
 </script>

@@ -1,11 +1,11 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <section class="mt-10 px-5 md:px-14 flex flex-col items-center lg:pl-[10rem] lg:px-0">
+  <section class="mt-10 px-5 md:px-14 flex flex-col items-center lg:px-0">
     <h1 class="text-center text-2xl font-overpass text-very-dark-blue font-bold">
       Designed for the future
     </h1>
     <div
-      class="flex flex-col items-center lg:flex-row-reverse lg:justify-between lg:mt-12 overflow-hidden"
+      class="flex flex-col items-center lg:flex-row-reverse lg:justify-between lg:mt-12 lg:pl-[10rem] overflow-hidden"
     >
       <figure class="mt-10 lg:left-[10rem] lg:relative lg:mt-0">
         <img :src="editor" alt="editor illustration" class="max-w-full lg:hidden" />
