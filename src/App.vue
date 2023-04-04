@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="h-full">
     <TheHeader />
     <FutureSection />
     <InfraSection />
@@ -14,4 +14,10 @@ import FutureSection from './components/FutureSection.vue'
 import InfraSection from './components/InfraSection.vue'
 import FosSection from './components/FosSection.vue'
 import TheFooter from './components/TheFooter.vue'
+import scroll from './components/animations/scroll'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  scroll()
+})
 </script>
